@@ -1,0 +1,20 @@
+#pamidu jayaranga
+#sprii test 2
+#2019-02-06
+
+version: '3'
+services:
+   sprii-mysql:
+       #restart: always
+       image: mysql:5.7
+       container_name: sprii-mysql
+       ports:
+          - "3306:3306"
+       environment:
+         - MYSQL_ROOT_PASSWORD=root
+         - MYSQL_DATABASE=sprii
+         #- MYSQL_USER=root
+         - MYSQL_PASSWORD=root
+       command: --innodb-buffer-pool-size=768M
+       volumes:
+         - /spriidata:/var/lib/mysql
