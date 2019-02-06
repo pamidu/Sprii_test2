@@ -2,11 +2,19 @@
 
 # how to run 
 docker-compose up
-</br>
+&nbsp;
+
 
 #changes
+&nbsp;
 mysql version - mysql5.7 
+&nbsp;
 innodb_duffer_pool_size=768M
+&nbsp;
 MYSQL username=root
+&nbsp;
 PASSWORD="root"
+&nbsp;
 data directory = /spridata
+&nbsp;
+
