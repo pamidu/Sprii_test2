@@ -1,20 +1,18 @@
-# Sprii_test2
+# Sprii test 2
 
-# how to run # 
-docker-compose up
-&nbsp;
+pamidu jayaranga
+2019-02-06
+  
 
+# how to run 
 
-#changes#
-&nbsp;
-mysql version - mysql5.7 
-&nbsp;
-innodb_duffer_pool_size=768M
-&nbsp;
-MYSQL username=root
-&nbsp;
-PASSWORD="root"
-&nbsp;
-data directory = /spridata
-&nbsp;
+    docker-compose up
+
+# changes
+
+  - mysql version - mysql5.7
+  - innodb_duffer_pool_size=768M
+  - MYSQL username=root
+  - PASSWORD="root"
+  - data directory = "/spridata"
 
