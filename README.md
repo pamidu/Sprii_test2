@@ -1,11 +1,11 @@
 # Sprii_test2
 
-# how to run 
+# how to run # 
 docker-compose up
 &nbsp;
 
 
-#changes
+#changes#
 &nbsp;
 mysql version - mysql5.7 
 &nbsp;
